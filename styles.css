@@ -1,0 +1,87 @@
+body{
+    background-image: url("images/wall-bg.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.intervels{
+    margin-left: auto;
+    margin-right: auto;
+    height: 9em;
+    width: 15em;
+    background-color: #f8ecae;
+    margin-bottom: 2em;
+    border: solid;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: #896702;
+    text-align: center;
+    padding: 3em;
+}
+.header{
+    text-align: center;
+    font-family: "Bangers", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    color: #223d22;
+    font-size: 5.5em;
+    text-shadow: black;
+}
+.sub-header{
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-weight: 1000;
+    font-style: italic;
+    color: #223d22;
+    font-size: 3em;
+}
+
+.intervel-text{
+    font-size: 2em;
+    color: #223d22;
+    text-shadow: #223d22;
+}
+.hidden{
+    display: none;
+}
+.reset{
+    margin-left: auto;
+    margin-right: auto;
+    height: 9em;
+    width: 15em;
+    background-color: #f8ecae;
+    margin-bottom: 2em;
+    border: solid;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: #896702;
+    text-align: center;
+    padding: 3em;
+
+}
+.clock{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.countdown .minutes, .seconds{
+    height: 1.5em;
+    width: 12em;
+    background-color: #f8ecae;
+    margin-bottom: 2em;
+    border: solid;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: #896702;
+    text-align: center;
+    padding: 3em;
+
+    
+}
+.countdown h5{
+    position: relative;
+    bottom: .3em;
+    font-size: 2em;
+    color: #223d22;
+    text-shadow: #223d22;
+}
